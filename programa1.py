@@ -26,6 +26,8 @@ def aritmetic(valor1, valor2, op='+'):
 
 if __name__ == '__main__':
     nome = input('Como te chamas ')
+    #continuar = 's'
+    #while continuar == 's':
     while True:
         #fator1 = int(input('Digite o primeiro número: '))
         fator1 = float(input('Digite o primeiro número: '))
