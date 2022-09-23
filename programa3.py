@@ -4,7 +4,7 @@ ESTE PROGRAMA IMPLEMENTA FUNÇÕES ARITMÉTRICAS
 
 
 def par(numero):
-    if num % 2 == 0:
+    if numero % 2 == 0:
         return True
     else:
         return False
