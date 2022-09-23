@@ -11,6 +11,19 @@ def par(numero):
     #return True
     #return False
 
+"""
+def par(numero):
+    resto = numero % 2
+    if resto == 0:
+        return True
+    else:
+        return False
+"""
+
+"""
+def par(numero):
+    return numero % 2 == 0
+"""
 
 if __name__ == '__main__':
     nome = input('Como te chamas? ')
