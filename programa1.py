@@ -25,8 +25,17 @@ def aritmetic(valor1, valor2, op='+'):
 
 
 if __name__ == '__main__':
-    fator1 = int(input('Digite o primeiro número: '))
-    fator2 = int(input('Digite o segundo número: '))
-    operacao = input('Qual é o operador: ')
+    nome = input('Como te chamas ')
+    while True:
+        #fator1 = int(input('Digite o primeiro número: '))
+        fator1 = float(input('Digite o primeiro número: '))
+        #fator2 = int(input('Digite o segundo número: '))
+        fator2 = float(input('Digite o segundo número: '))
+        operacao = input('Qual é o operador [+, -, :, *]: ')
 
-    print(f'{fator1} {operacao} {fator2} = {aritmetic(fator1, fator2, operacao)}')
+        print(f'Olá {nome}, {fator1} {operacao} {fator2} = {aritmetic(fator1, fator2, operacao)}')
+
+        continuar = input('Repetir [s | n]? ')
+        if continuar == 'n':
+            break
+    print(f'Adeus {nome}!')
