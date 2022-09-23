@@ -8,7 +8,6 @@ def par(numero):
         return True
     else:
         return False
-
     #return True
     #return False
 
