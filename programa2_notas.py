@@ -21,4 +21,4 @@ def notas(nt):
 if __name__ == '__main__':
     nota = int(input('Qual foi a sua nota? '))
 
-    print(f'Tem um = {notas(nota)}')
+    print(f'Tem um {notas(nota)}')
