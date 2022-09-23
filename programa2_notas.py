@@ -19,6 +19,12 @@ def notas(nt):
     return nota
 
 if __name__ == '__main__':
-    nota = int(input('Qual foi a sua nota? '))
+    nome = input('Como te chamas? ')
+    while True:
+        nota = int(input('Qual foi a sua nota? '))
 
-    print(f'Tem um {notas(nota)}')
+        print(f'{nome}, Tens um {notas(nota)}')
+        continuar = input('Deseja continuar [s | n]? ')
+        if continuar == 'n':
+            break
+    print(f'Adeus {nome}')

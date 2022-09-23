@@ -7,15 +7,15 @@ def notas(nt):
     nota = 'Nota Inválida'
     if nt <= 100 <=90:
         nota = 'A'
-    if nt <= 89 <= 70:
+    elif nt <= 89 <= 70:
         nota = 'B'
-    if nt <= 69 <= 50:
+    elif nt <= 69 <= 50:
         nota = 'C'
-    if nt <= 49 <= 30:
+    elif nt <= 49 <= 30:
         nota = 'D'
-    if nt <= 29 <= 10:
+    elif nt <= 29 <= 10:
         nota = 'E'
-    if nt <= 9 <= 0:
+    elif nt <= 9 <= 0:
         nota = 'F'
 
     return nota
