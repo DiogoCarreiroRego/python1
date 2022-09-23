@@ -27,4 +27,4 @@ if __name__ == '__main__':
         continuar = input('Deseja continuar [s | n]? ')
         if continuar == 'n':
             break
-    print(f'Adeus {nome}')
+    print(f'Adeus {nome}.')
