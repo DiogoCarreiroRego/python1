@@ -1,4 +1,4 @@
-def divisores(numero):
+def divisores(num):
 
 
     return 1
