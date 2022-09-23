@@ -21,3 +21,4 @@ if __name__ == '__main__':
         continuar = input('Repetir [s | n]? ')
         if continuar == 'n':
             break
+    print('Adeus!')
